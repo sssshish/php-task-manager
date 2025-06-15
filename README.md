@@ -2,10 +2,6 @@
 
 A lightweight task management system built in PHP that allows users to add and manage tasks, subscribe via email for hourly task reminders, and unsubscribe anytime — all without using a database.
 
-> 📁 All logic and functionality is implemented within the `src/` folder as per assignment requirements.
-
----
-
 ## 🚀 Features
 
 ### ✅ Task Management
