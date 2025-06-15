@@ -45,7 +45,14 @@ This project uses **[MailHog](https://github.com/mailhog/MailHog)** for email te
    ini_set('smtp_port', 1025);
    ini_set('sendmail_from', 'no-reply@example.com');
 
+### Setup CRON job
+To set up the hourly reminder CRON job:
 
+```bash
+chmod +x setup_cron.sh
+
+./setup_cron.sh
+```
 
 ### Running the PHP Server
 Start the PHP built-in server:
