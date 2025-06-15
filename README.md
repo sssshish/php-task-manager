@@ -52,6 +52,7 @@ Start the PHP built-in server:
 ```bash
 php -S localhost:8000
 
+### Setup CRON job:
 To set up the hourly reminder CRON job:
 ```bash
 chmod +x setup_cron.sh
