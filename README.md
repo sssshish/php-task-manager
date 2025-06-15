@@ -54,6 +54,8 @@ chmod +x setup_cron.sh
 ./setup_cron.sh
 ```
 
+For Windows, use task manager or bash. Alternatively, the cron.php file can be run manually for testing.
+
 ### Running the PHP Server
 Start the PHP built-in server:
 ```bash
