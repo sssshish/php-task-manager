@@ -2,16 +2,16 @@
 
 A lightweight task management system built in PHP that allows users to add and manage tasks, subscribe via email for hourly task reminders, and unsubscribe anytime — all without using a database.
 
-## 🚀 Features
+## Features
 
-### ✅ Task Management
+### Task Management
 - Add new tasks to a shared task list
 - Avoids duplicate task names (case-insensitive)
 - Mark tasks as complete/incomplete
 - Delete tasks
 - Stores all tasks in `tasks.txt` (JSON format)
 
-### ✅ Email Subscription System
+### Email Subscription System
 - Users can subscribe using their email address
 - Email verification via a unique 6-digit code
 - Email verification handled via `verify.php`
@@ -19,7 +19,7 @@ A lightweight task management system built in PHP that allows users to add and m
 - Unverified emails and codes stored in `pending_subscriptions.txt`
 - Users can unsubscribe via one-click link in reminder email
 
-### ✅ Hourly Task Reminders
+### Hourly Task Reminders
 - CRON job executes `cron.php` every hour
 - Sends reminder emails with pending tasks to all verified subscribers
 - Each email contains:
@@ -28,7 +28,7 @@ A lightweight task management system built in PHP that allows users to add and m
 
 ---
 
-## 💌 Email Testing with MailHog
+## Email Testing with MailHog
 
 This project uses **[MailHog](https://github.com/mailhog/MailHog)** for email testing in a local development environment.
 
