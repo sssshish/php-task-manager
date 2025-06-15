@@ -47,15 +47,12 @@ This project uses **[MailHog](https://github.com/mailhog/MailHog)** for email te
 
 
 
-### To run PHP server:
-```
-cd src
+### Running the PHP Server
+Start the PHP built-in server:
+```bash
 php -S localhost:8000
-```
-### Set Up the CRON Job (Linux/macOS)
-```
+
+To set up the hourly reminder CRON job:
+```bash
 chmod +x setup_cron.sh
 ./setup_cron.sh
-OR 
-Run cron manually using "php cron.php"
-```
