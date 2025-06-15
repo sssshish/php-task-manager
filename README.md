@@ -48,12 +48,14 @@ This project uses **[MailHog](https://github.com/mailhog/MailHog)** for email te
 
 
 ### To run PHP server:
+```
 cd src
 php -S localhost:8000
-
+```
 ### Set Up the CRON Job (Linux/macOS)
+```
 chmod +x setup_cron.sh
 ./setup_cron.sh
-
 OR 
 Run cron manually using "php cron.php"
+```
